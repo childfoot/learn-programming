@@ -31,6 +31,6 @@
     "build": "webpack"
   },
   "bin": {
-    "create-learn-programming-app": "./cli.js"
+    "create-learn-programming-app": "./bin/cli.js"
   }
 }
