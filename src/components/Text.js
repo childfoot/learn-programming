@@ -1,13 +1,6 @@
 import React, { PureComponent } from 'react'
 
-export default class Button extends PureComponent {
-
-  onClick = () => {
-    const value = this.props.value ? this.props.value : this.props.children
-    console.log('onClick', value)
-    this.props.onClick(value)
-  }
-
+export default class Text extends PureComponent {
   render() {
     const {
       color,
@@ -25,7 +18,7 @@ export default class Button extends PureComponent {
     }
 
     return (
-      <button onClick={this.onClick} style={defaultStyle}>{children}</button>
+      <div style={defaultStyle}>{children}</div>
     )
   }
 }
