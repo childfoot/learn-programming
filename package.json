@@ -1,6 +1,6 @@
 {
   "name": "learn-programming",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple set to teach programming to children",
   "main": "build/index.js",
   "homepage": "https://github.com/childfoot/learn-programming",
