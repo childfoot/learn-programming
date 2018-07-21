@@ -1,6 +1,6 @@
 {
   "name": "learn-programming",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple set to teach programming to children",
   "main": "build/index.js",
   "homepage": "https://github.com/childfoot/learn-programming",
@@ -16,12 +16,12 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
-    "webpack": "^4.16.1",
     "@babel/core": "^7.0.0-beta.54",
-    "@babel/preset-env": "^7.0.0-beta.54",
-    "babel-loader": "^8.0.0-beta",
     "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
     "@babel/preset-react": "^7.0.0-beta.54",
+    "babel-loader": "^8.0.0-beta",
+    "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
