@@ -12,6 +12,8 @@
   "author": "Yuki Kagohashi <yuki.kagohashi@childfoot.jp>",
   "license": "MIT",
   "dependencies": {
+    "file-system": "^2.2.2",
+    "jsonfile": "^4.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
@@ -27,5 +29,8 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack"
+  },
+  "bin": {
+    "create-learn-programming-app": "./cli.js"
   }
 }
