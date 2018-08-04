@@ -30,3 +30,46 @@ yarn run dev
 ```
 
 We can see the application in a browser requesting to `http://localhost:3000` .
+
+
+
+## Components
+
+### Text
+
+|attribute       | format          |
+|----------------|----------------|
+|color           | |
+|backgroundColor | |
+|fontSize        | |
+|textAlign       | |
+
+
+### Button
+
+|attribute       | format          |
+|----------------|----------------|
+|onClick         | (text in the button) => { } |
+|color           | |
+|backgroundColor | |
+|fontSize        | |
+|textAlign       | |
+
+
+
+
+### RowBlock
+
+|attribute       | format          |
+|----------------|----------------|
+|color           | |
+|backgroundColor | |
+
+
+
+### ColumnBlock
+
+|attribute       | format          |
+|----------------|----------------|
+|color           | |
+|backgroundColor | |

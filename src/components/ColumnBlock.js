@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 
 export default class ColumnBlock extends PureComponent {
   render() {
-    const style = {
+    const defaultStyle = {
       display: 'flex',
       flex: 1,
       flexDirection: 'column'
@@ -11,12 +11,25 @@ export default class ColumnBlock extends PureComponent {
     const fields = ['width', 'height']
     fields.forEach(field => {
       if(this.props[field]) {
-        style[field] = `${this.props[field]}px`
+        defaultStyle[field] = `${this.props[field]}px`
+      }
+    })
+
+    const styles = ['color', 'backgroundColor']
+    styles.forEach(field => {
+      if(this.props[field]) {
+        if(field == 'fontSize') {
+          defaultStyle[field] = this.props[field] + 'em'
+        }
+        else {
+          defaultStyle[field] = this.props[field]
+        }
+
       }
     })
 
     return (
-      <div style={style}>
+      <div style={defaultStyle}>
         {this.props.children}
       </div>
     )
